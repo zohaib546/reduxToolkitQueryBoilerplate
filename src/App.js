@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { fetchPosts, addNewPost } from "./store/testSlice";
 import {
   useGetProductsQuery,
   useAddNewProductMutation,
